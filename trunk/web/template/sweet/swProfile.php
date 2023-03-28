@@ -63,16 +63,6 @@ if(isset($_SESSION[$OJ_NAME.'_'.'user_id'])){
     $profile.= "<dd><a href=".$path_fix."logout.php>$MSG_LOGOUT</a></dd>";
 
 }else{
-    if($OJ_WEIBO_AUTH){
-        $profile.= "<dd><a href=".$path_fix."login_weibo.php>$MSG_LOGIN(WEIBO)</a></dd>";
-    }
-    if($OJ_RR_AUTH){
-        $profile.= "<dd><a href=".$path_fix."login_renren.php>$MSG_LOGIN(RENREN)</a></dd>";
-    }
-    if ($OJ_QQ_AUTH){
-        $profile.= "<dd><a href=".$path_fix."login_qq.php>$MSG_LOGIN(QQ)</a></dd>";
-    }
-
     $profile.= "<dd><a href=".$path_fix."loginpage.php>$MSG_LOGIN</a></dd>";
 
 //    if($OJ_LOGIN_MOD=="hustoj"){

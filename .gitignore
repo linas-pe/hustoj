@@ -8,3 +8,4 @@ trunk/core/judge_client/judge_client.http
 trunk/core/judged/judged
 trunk/core/judged/judged.http
 trunk/core/judged/judgehub
+*.swp
